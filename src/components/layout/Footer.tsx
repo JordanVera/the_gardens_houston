@@ -12,11 +12,12 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-3">
               <Image
-                src="/logo.png"
+                src="/logo-white.png"
                 alt={COMPANY.name}
                 width={160}
                 height={48}
-                className="h-24 w-auto object-contain"
+                className="h-12 w-auto mt-2"
+                priority
               />
             </Link>
             <p className="max-w-xs text-sm leading-relaxed">

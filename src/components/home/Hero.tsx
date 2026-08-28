@@ -77,7 +77,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-[#2d5016] text-xs tracking-[0.4em] uppercase mb-6"
+          className="text-[#da8990] text-xs tracking-[0.4em] uppercase mb-6"
         >
           Houston, Texas · Up to {COMPANY.maxGuests} Guests
         </motion.p>
@@ -88,7 +88,7 @@ export default function Hero() {
           transition={{ duration: 0.9, delay: 0.35 }}
           className="font-serif text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[1.05] tracking-tight max-w-4xl"
         >
-          Boutique Garden Wedding Venue <em className="italic text-[#2d5016]">The Gardens Houston</em>
+          Boutique Garden Wedding Venue <em className="italic text-[#da8990]">The Gardens Houston</em>
         </motion.h1>
 
         <motion.p
@@ -108,13 +108,13 @@ export default function Hero() {
         >
           <Link
             href="/contact"
-            className="px-8 py-3.5 bg-[#2d5016] text-black text-xs tracking-[0.2em] uppercase font-medium hover:bg-[#c9a227] transition-colors duration-200"
+            className="px-8 py-3.5 bg-[#da8990] text-black text-xs tracking-[0.2em] uppercase font-medium hover:bg-[#c9a227] transition-colors duration-200"
           >
             Book a Tour
           </Link>
           <Link
             href="/pricing"
-            className="px-8 py-3.5 border border-white/50 text-white text-xs tracking-[0.2em] uppercase hover:border-[#2d5016] hover:text-[#2d5016] transition-all duration-200"
+            className="px-8 py-3.5 border border-white/50 text-white text-xs tracking-[0.2em] uppercase hover:border-[#da8990] hover:text-[#da8990] transition-all duration-200"
           >
             View Pricing
           </Link>
